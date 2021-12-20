@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProductosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_productos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_italic"
+        android:text="@string/menu_productos" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- p1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_p1"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dia_madres" />
+
+                <TextView
+                    android:id="@+id/tv_p1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_varfont"
+                    android:text="Desayuno Sorpresa  $45.000"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+            <!-- p2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_p2"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/rosas_vino" />
+
+                <TextView
+                    android:id="@+id/tv_p2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_varfont"
+                    android:text="Rosas Y Vino  $35.000"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+            <!-- p3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_p3"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/girasoles_fresas" />
+
+                <TextView
+                    android:id="@+id/tv_p3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_varfont"
+                    android:text="Girasoles, Rosas y Chocolates  $55.000"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+            <!-- p4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_p4"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/c_rosasferr" />
+
+                <TextView
+                    android:id="@+id/tv_p4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_varfont"
+                    android:text="Caja Rosas y Ferreros  $40.000"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
